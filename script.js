@@ -1,11 +1,13 @@
 $(function() {
     $('form').submit(function()
     {
+
         //console.log('submitting!')
 
         if(!$('#required').val()) {
             $('#required').after("<p>!INSERT SUMMIT!</p>")
             console.log("false")
+            $('#required').trigger('focus')
             return false;
         }
         else {
