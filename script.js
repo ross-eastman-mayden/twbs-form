@@ -1,15 +1,18 @@
 $(function() {
     $('form').submit(function()
     {
-        console.log('submitting!')
+        //console.log('submitting!')
 
-        if($('form-group class').type(undefined)) {
+        if(!$('#required').val()) {
+            $('#required').after("<p>!INSERT SUMMIT!</p>")
+            console.log("false")
             return false;
         }
         else {
+            console.log("true")
             return true;
         }
     })
-    $('.form-group,.radio').not('#button').append("<p>!this is a massage!</p>")
+    //$('.form-group,.radio').not('#button').append("<p>!this is a massage!</p>")
 
 })
