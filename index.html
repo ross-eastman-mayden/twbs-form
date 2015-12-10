@@ -9,7 +9,7 @@
 
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
-
+<link rel="stylesheet" href="styles.css" type="text/css">
 <title>Form validation challenge</title>
 </head>
 <body>
@@ -28,7 +28,7 @@
 					</div>
 					<div class="form-group">
 						<label>Required - Min length 10 - Max length 25:</label>
-						<input type="text" class="form-control">
+						<input type="text" class="form-control required">
 					</div>
 					<div class="form-group">
 						<label>Not required - Min length 10 - Max length 25:</label>
@@ -45,7 +45,7 @@
 					</div>
 					<div class="form-group">
 						<label>Required if above field is Yes:</label>
-						<input type="text" class="form-control">
+						<input type="text" class="form-control" id="requiredIfChecked">
 					</div>
 					<div class="form-group">
 						<input type="submit" class="btn btn-success" value="Validate!">

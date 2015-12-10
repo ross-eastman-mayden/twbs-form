@@ -1,0 +1,15 @@
+.requiredWarning {
+    position: absolute;
+    font-size: 16px;
+    font-weight: bold;
+    color: #f91111;
+    background: #1f1f1f;
+    border-radius: 5px;
+    height: 22px;
+    width: 190px;
+    padding-left: 8px;
+}
+
+label {
+    padding-top: 15px;
+}
